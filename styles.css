@@ -5,15 +5,23 @@ body {
     box-sizing: border-box;
 }
 
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
 .profile-section {
+    width: 90%;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 2em;
-    background-color: rgba(43, 48, 60, 0.629); /* Add a semi-transparent white background */
+    background-color: rgba(43, 48, 60, 0.629);
     border-radius: 10px; /* Add rounded corners */
-    padding: 2em;
 }
 
 .profile-image img {
@@ -29,7 +37,7 @@ body {
 }
 
 .profile-info h2 {
-    margin-bottom: 100px ;
+    margin-bottom: 40px ;
 }
 
 .social-links {
@@ -41,7 +49,7 @@ body {
 .social-links li {
     background-color: rgba(25, 28, 33, 0.641);
     border-radius: 30px;
-    margin: 0.8em;
+    margin: 0.5em;
     display: flex;
 }
 
